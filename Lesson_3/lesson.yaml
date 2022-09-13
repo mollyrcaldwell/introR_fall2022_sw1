@@ -22,7 +22,7 @@
   Output: Use filter() in a piped expression from the starwars data to create a new dataset called droid_data with only droids.
   CorrectAnswer: droid_data <- starwars %>% filter(species == "Droid")
   AnswerTests: omnitest(correctExpr='droid_data <- starwars %>% filter(species == "Droid")')
-  Hint: Hint- ?filter to see what arguments to input. Should have two lines of code, the first line with a pipe from starwars data. Did you assign the new dataset the correct name? Did you use '==' to filter species to droid?
+  Hint: Hint- ?filter to see what arguments to input. Should have two lines of code, the first line with a pipe from starwars data. Did you assign the new dataset the correct name? Did you use '==' to filter species to Droid? Did you capitalize droid correctly and use quotations?
 
 - Class: cmd_question
   Output: Determine the average mass of droids.
