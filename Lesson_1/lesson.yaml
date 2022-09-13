@@ -1,0 +1,34 @@
+- Class: meta
+  Course: Intro to R- Session 1
+  Lesson: Lesson 1
+  Author: Molly Caldwell
+  Type: Standard
+  Organization: UWyo
+  Version: 2.4.5
+
+- Class: text
+  Output: Welcome! To progress through each question, type your answer into the console and then hit enter. If you need a hint, type in an incorrect answer and hit enter. To go to first question, hit enter.
+
+- Class: cmd_question
+  Output: Create a vector called seq1, that is a sequence of numbers from 5 to 50 by 2s using seq().
+  CorrectAnswer: seq1 <- seq(5, 50, by = 2)
+  AnswerTests: omnitest(correctExpr='seq1 <- seq(5, 50, by = 2)')
+  Hint: Hint- To learn about seq, type ?seq into console and hit enter.
+
+- Class: cmd_question
+  Output: Calculate sum of seq1 using sum() function.
+  CorrectAnswer: sum(seq1)
+  AnswerTests: omnitest(correctExpr='sum(seq1)')
+  Hint: Hint- To learn about sum, type ?sum into console and hit enter.
+
+- Class: cmd_question
+  Output: Create a vector called rep1 that is the number 2 repeated 100 times using rep().
+  CorrectAnswer: rep1 <- rep(2, times = 100)
+  AnswerTests: omnitest(correctExpr='rep1 <- rep(2, times = 100)')
+  Hint: Hint- To learn about rep, type ?rep into console and hit enter.
+
+- Class: cmd_question
+  Output: Determine whether the sum of seq1 is greater than the sum of rep1 using a logical statement.
+  CorrectAnswer: sum(seq1) > sum(rep1)
+  AnswerTests: omnitest(correctExpr='sum(seq1) > sum(rep1)')
+  Hint: Hint- You'll need to write an expression using sum, the two vectors you made, and the > operator.
